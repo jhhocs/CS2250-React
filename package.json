@@ -5,7 +5,9 @@
     "react-scripts": "^5.0.0"
   },
   "main": "/index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "react-router-dom": "^6.19.0"
+  },
   "name": "vy6j3f",
   "description": null,
   "version": "0.0.0",
