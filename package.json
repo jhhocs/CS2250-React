@@ -1,4 +1,5 @@
 {
+  "homepage" : "http://jhhocs.github.io/CS2250-React",
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
