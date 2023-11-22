@@ -47,11 +47,11 @@ export default function Search() {
     }
     
     return (
-        <>
+        <div className = "outer">
             <h1>Dictionary API</h1>
             <input required="required" placeholder = "Enter word here" value = {word} onChange={(e) => setWord(e.target.value)}/>
             <button type = "submit" onClick = {fetchDefinition}>Search</button>
             <Response />
-        </>
+        </div>
     );
   }

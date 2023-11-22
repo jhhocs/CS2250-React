@@ -1,6 +1,6 @@
 export default function Home() {
     return (
-        <div>
+        <div className = "outer">
             <h1>Home</h1>
             <h3>Welcome!</h3>
             <p>Click on the API link to find the definitions of words with Dictionary API</p>
