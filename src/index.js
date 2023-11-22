@@ -12,7 +12,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path = "/" element = {<Layout />}>
+        <Route path = "/CS2250-React" element = {<Layout />}>
           <Route index element ={<Home />}/>
           <Route path = "api" element = {<API/>}/>
           <Route path = "tictactoe" element = {<TicTacToe/>}/>
