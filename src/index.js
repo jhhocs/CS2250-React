@@ -1,7 +1,8 @@
 import React, { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { BrowserRouter, Routes, Route} from "react-router-dom";
+import { Routes, Route, HashRouter} from "react-router-dom";
 import "./styles.css";
+
 
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
@@ -10,19 +11,19 @@ import API from "./pages/API";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
-          <Route path = "/CS2250-React" element = {<Layout />}>
+          <Route path = "/" element = {<Layout />}>
           <Route index element ={<Home />}/>
           <Route path = "api" element = {<API/>}/>
           <Route path = "tictactoe" element = {<TicTacToe/>}/>
         </Route>
       </Routes>
-    </BrowserRouter>  
+      </HashRouter> 
   )
 }
 
 const root = createRoot(document.getElementById("root"));
 root.render(
-  <App />
+    <App />
 );

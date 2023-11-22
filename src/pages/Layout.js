@@ -6,13 +6,13 @@ export default function Layout() {
             <nav>
                 <ul>
                     <li>
-                        <Link to = "">Home</Link>
+                        <Link to = "/">Home</Link>
                     </li>
                     <li>
-                        <Link to = "api">API</Link>
+                        <Link to = "/api">API</Link>
                     </li>
                     <li>
-                        <Link to = "tictactoe">TicTacToe</Link>
+                        <Link to = "/tictactoe">TicTacToe</Link>
                     </li>
 
                 </ul>
